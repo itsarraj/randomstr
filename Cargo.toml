@@ -1,0 +1,16 @@
+[package]
+name = "randomstr"
+version = "0.1.0"
+edition = "2021"
+description = "A secure random string generator for passwords or tokens, with character set options"
+license = "MIT"
+authors = ["Animesh Raj <animesh080808@gmail.com>"]
+repository = "https://github.com/itsarraj/randomstr"
+readme = "README.md"
+keywords = ["random", "string", "password", "generator", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+rand = "0.8"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
